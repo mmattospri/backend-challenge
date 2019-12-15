@@ -6,12 +6,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-/**
- * Repository of Stores.
- *
- * @author Renan Gigliotti
- * @since 1.0
- */
+
 public interface StoreRepository {
     void create(Store store);
 
