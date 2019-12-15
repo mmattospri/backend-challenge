@@ -330,3 +330,671 @@ com.invillia.acme.exceptions.RefundExpiredException: Refund deadline expired 10 
 2019-12-28 18:42:41.096  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
 2019-12-28 18:42:41.103  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
 2019-12-28 18:42:41.139  INFO 36016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-28 18:42:41.141  INFO 36016 --- [restartedMain] com.invillia.acme.InvilliaApplication    : Started InvilliaApplication in 4.26 seconds (JVM running for 1391.033)
+2019-12-28 18:42:41.147  INFO 36016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-28 18:49:08.425  INFO 45900 --- [main] c.i.acme.integration.PaymentServiceTest  : Starting PaymentServiceTest on DESKTOP-70POKHP with PID 45900 (started by junior in C:\invillia_principal)
+2019-12-28 18:49:08.429  INFO 45900 --- [main] c.i.acme.integration.PaymentServiceTest  : No active profile set, falling back to default profiles: default
+2019-12-28 18:49:08.546 DEBUG 45900 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@645aa696
+2019-12-28 18:49:12.747  INFO 45900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 18:49:12.889  INFO 45900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 0 repository interfaces.
+2019-12-28 18:49:14.409  INFO 45900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f4d0541] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 18:49:15.602  INFO 45900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 18:49:16.201  INFO 45900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 18:49:16.517  INFO 45900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 18:49:17.001  INFO 45900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 18:49:17.011  INFO 45900 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 18:49:17.686  INFO 45900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 18:49:18.434  INFO 45900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 18:49:18.882  INFO 45900 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 18:49:18.900  INFO 45900 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7d42542
+2019-12-28 18:49:22.532  INFO 45900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 18:49:25.356  WARN 45900 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 18:49:26.627 DEBUG 45900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 18:49:28.780  INFO 45900 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 18:49:31.213 DEBUG 45900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 18:49:32.272  INFO 45900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 18:49:32.395 DEBUG 45900 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 18:49:32.604 DEBUG 45900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 18:49:32.652 DEBUG 45900 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 18:49:34.112  INFO 45900 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 18:49:34.211  INFO 45900 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 18:49:34.343  INFO 45900 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 18:49:34.826  INFO 45900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 18:49:34.854  INFO 45900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 18:49:34.877  INFO 45900 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 18:49:34.950  INFO 45900 --- [main] c.i.acme.integration.PaymentServiceTest  : Started PaymentServiceTest in 27.832 seconds (JVM running for 31.467)
+2019-12-28 18:49:36.759  INFO 45900 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-28 18:49:37.779 DEBUG 45900 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@645aa696, started on Sat Dec 28 18:49:08 BRST 2019
+2019-12-28 18:49:37.792  INFO 45900 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 18:49:37.797  INFO 45900 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 18:49:37.807  INFO 45900 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 18:49:37.847  INFO 45900 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 20:46:43.527  INFO 36016 --- [Thread-69] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 20:46:43.534  INFO 36016 --- [Thread-69] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:46:43.553  INFO 36016 --- [Thread-69] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2019-12-28 20:46:43.613  INFO 36016 --- [Thread-69] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2019-12-28 20:46:51.153  INFO 36016 --- [restartedMain] com.invillia.acme.InvilliaApplication    : Starting InvilliaApplication on DESKTOP-70POKHP with PID 36016 (C:\invillia_principal\target\classes started by junior in C:\invillia_principal)
+2019-12-28 20:46:51.155  INFO 36016 --- [restartedMain] com.invillia.acme.InvilliaApplication    : No active profile set, falling back to default profiles: default
+2019-12-28 20:46:54.660  INFO 36016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 20:46:54.757  INFO 36016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 0 repository interfaces.
+2019-12-28 20:46:55.128  INFO 36016 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b33724fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 20:46:55.600  INFO 36016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 20:46:55.603  INFO 36016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 20:46:55.603  INFO 36016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-12-28 20:46:55.655  INFO 36016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 20:46:55.655 DEBUG 36016 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-12-28 20:46:55.655  INFO 36016 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4431 ms
+2019-12-28 20:46:55.684  INFO 36016 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-12-28 20:46:55.686  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-28 20:46:55.688  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-28 20:46:55.688  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-12-28 20:46:55.688  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-28 20:46:55.852  INFO 36016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2019-12-28 20:46:56.812  INFO 36016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2019-12-28 20:46:56.844  INFO 36016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 20:46:56.905  INFO 36016 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 20:46:57.232  INFO 36016 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 20:46:57.232  INFO 36016 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@123b5ddc
+2019-12-28 20:46:58.141  INFO 36016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:46:58.179  INFO 36016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-28 20:46:59.081  WARN 36016 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 20:46:59.141 DEBUG 36016 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 20:46:59.391  INFO 36016 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 20:46:59.640 DEBUG 36016 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 20:46:59.913  INFO 36016 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 20:47:00.010 DEBUG 36016 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 20:47:00.054 DEBUG 36016 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 20:47:00.144 DEBUG 36016 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 20:47:00.563  INFO 36016 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 20:47:00.571  INFO 36016 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 20:47:00.611  INFO 36016 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 20:47:00.673  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 20:47:00.680  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 20:47:00.689  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 20:47:00.722  INFO 36016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-28 20:47:00.723  INFO 36016 --- [restartedMain] com.invillia.acme.InvilliaApplication    : Started InvilliaApplication in 9.925 seconds (JVM running for 8850.616)
+2019-12-28 20:47:00.730  INFO 36016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-28 20:54:02.751  INFO 36016 --- [Thread-76] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 20:54:02.755  INFO 36016 --- [Thread-76] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:54:02.759  INFO 36016 --- [Thread-76] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2019-12-28 20:54:02.773  INFO 36016 --- [Thread-76] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2019-12-28 20:54:03.939  INFO 36016 --- [restartedMain] com.invillia.acme.InvilliaApplication    : Starting InvilliaApplication on DESKTOP-70POKHP with PID 36016 (C:\invillia_principal\target\classes started by junior in C:\invillia_principal)
+2019-12-28 20:54:03.942  INFO 36016 --- [restartedMain] com.invillia.acme.InvilliaApplication    : No active profile set, falling back to default profiles: default
+2019-12-28 20:54:05.822  INFO 36016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 20:54:05.872  INFO 36016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 0 repository interfaces.
+2019-12-28 20:54:06.104  INFO 36016 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b33724fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 20:54:06.501  INFO 36016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 20:54:06.502  INFO 36016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 20:54:06.503  INFO 36016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-12-28 20:54:06.548  INFO 36016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 20:54:06.549 DEBUG 36016 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-12-28 20:54:06.549  INFO 36016 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2601 ms
+2019-12-28 20:54:06.584  INFO 36016 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-12-28 20:54:06.585  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-28 20:54:06.585  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-28 20:54:06.586  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-12-28 20:54:06.586  INFO 36016 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-28 20:54:06.700  INFO 36016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2019-12-28 20:54:06.866  INFO 36016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2019-12-28 20:54:06.891  INFO 36016 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 20:54:06.933  INFO 36016 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 20:54:07.220  INFO 36016 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 20:54:07.221  INFO 36016 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@123b5ddc
+2019-12-28 20:54:07.528  INFO 36016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:54:07.556  INFO 36016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-28 20:54:08.029  WARN 36016 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 20:54:08.094 DEBUG 36016 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 20:54:08.220  INFO 36016 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 20:54:08.323 DEBUG 36016 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 20:54:08.510  INFO 36016 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 20:54:08.532 DEBUG 36016 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 20:54:08.569 DEBUG 36016 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 20:54:08.614 DEBUG 36016 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 20:54:08.905  INFO 36016 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 20:54:08.917  INFO 36016 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 20:54:08.970  INFO 36016 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 20:54:09.031  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 20:54:09.035  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 20:54:09.048  INFO 36016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 20:54:09.079  INFO 36016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-28 20:54:09.080  INFO 36016 --- [restartedMain] com.invillia.acme.InvilliaApplication    : Started InvilliaApplication in 5.23 seconds (JVM running for 9278.973)
+2019-12-28 20:54:09.086  INFO 36016 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-28 21:08:35.573  INFO 33180 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Starting OrderResourceTest on DESKTOP-70POKHP with PID 33180 (started by junior in C:\invillia_principal)
+2019-12-28 21:08:35.578  INFO 33180 --- [main] c.i.acme.resourceTest.OrderResourceTest  : No active profile set, falling back to default profiles: default
+2019-12-28 21:08:36.990 DEBUG 33180 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb
+2019-12-28 21:08:42.245  INFO 33180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 21:08:42.385  INFO 33180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105ms. Found 0 repository interfaces.
+2019-12-28 21:08:44.537  INFO 33180 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2e988060] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 21:08:46.177  INFO 33180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 21:08:46.654  INFO 33180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 21:08:47.051  INFO 33180 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 21:08:47.511  INFO 33180 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 21:08:47.517  INFO 33180 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 21:08:48.656  INFO 33180 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 21:08:49.581  INFO 33180 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 21:08:50.224  INFO 33180 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 21:08:50.247  INFO 33180 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7634f2b
+2019-12-28 21:08:53.826  INFO 33180 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:08:57.165  WARN 33180 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 21:08:58.161 DEBUG 33180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 21:09:00.808  INFO 33180 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 21:09:04.055 DEBUG 33180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 21:09:06.159  INFO 33180 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:09:06.548 DEBUG 33180 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 21:09:06.996 DEBUG 33180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 21:09:07.233 DEBUG 33180 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 21:09:09.808  INFO 33180 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 21:09:10.153  INFO 33180 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 21:09:10.485  INFO 33180 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 21:09:12.888  INFO 33180 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 21:09:12.905  INFO 33180 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 21:09:12.937  INFO 33180 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 21:09:13.033  INFO 33180 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Started OrderResourceTest in 39.487 seconds (JVM running for 46.251)
+2019-12-28 21:09:13.879 DEBUG 33180 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@35dab4eb, started on Sat Dec 28 21:08:36 BRST 2019
+2019-12-28 21:09:13.893  INFO 33180 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:09:13.913  INFO 33180 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:09:13.925  INFO 33180 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 21:09:13.951  INFO 33180 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 21:10:24.462  INFO 45576 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Starting OrderResourceTest on DESKTOP-70POKHP with PID 45576 (started by junior in C:\invillia_principal)
+2019-12-28 21:10:24.511  INFO 45576 --- [main] c.i.acme.resourceTest.OrderResourceTest  : No active profile set, falling back to default profiles: default
+2019-12-28 21:10:25.918 DEBUG 45576 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5afa3c9
+2019-12-28 21:10:31.856  INFO 45576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 21:10:32.002  INFO 45576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 0 repository interfaces.
+2019-12-28 21:10:34.114  INFO 45576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cfcfaf3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 21:10:36.187  INFO 45576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 21:10:36.911  INFO 45576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 21:10:37.302  INFO 45576 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 21:10:37.786  INFO 45576 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 21:10:37.797  INFO 45576 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 21:10:38.811  INFO 45576 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 21:10:39.931  INFO 45576 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 21:10:40.562  INFO 45576 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 21:10:40.589  INFO 45576 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@681c0ae6
+2019-12-28 21:10:44.699  INFO 45576 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:10:48.431  WARN 45576 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 21:10:49.407 DEBUG 45576 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 21:10:51.852  INFO 45576 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 21:10:54.956 DEBUG 45576 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 21:10:57.620  INFO 45576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:10:57.816 DEBUG 45576 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 21:10:58.414 DEBUG 45576 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 21:10:58.554 DEBUG 45576 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 21:11:02.979  INFO 45576 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 21:11:03.308  INFO 45576 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 21:11:03.607  INFO 45576 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 21:11:05.181  INFO 45576 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 21:11:05.208  INFO 45576 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 21:11:05.253  INFO 45576 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 21:11:05.391  INFO 45576 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Started OrderResourceTest in 42.987 seconds (JVM running for 48.196)
+2019-12-28 21:11:06.010 DEBUG 45576 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5afa3c9, started on Sat Dec 28 21:10:25 BRST 2019
+2019-12-28 21:11:06.021  INFO 45576 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:11:06.044  INFO 45576 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:11:06.062  INFO 45576 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 21:11:06.130  INFO 45576 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 21:11:44.199  INFO 36300 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Starting OrderResourceTest on DESKTOP-70POKHP with PID 36300 (started by junior in C:\invillia_principal)
+2019-12-28 21:11:44.203  INFO 36300 --- [main] c.i.acme.resourceTest.OrderResourceTest  : No active profile set, falling back to default profiles: default
+2019-12-28 21:11:45.462 DEBUG 36300 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@18271936
+2019-12-28 21:11:51.307  INFO 36300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 21:11:51.431  INFO 36300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 0 repository interfaces.
+2019-12-28 21:11:53.771  INFO 36300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9246140] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 21:11:55.409  INFO 36300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 21:11:55.818  INFO 36300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 21:11:56.187  INFO 36300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 21:11:56.697  INFO 36300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 21:11:56.705  INFO 36300 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 21:11:57.647  INFO 36300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 21:11:58.517  INFO 36300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 21:11:59.120  INFO 36300 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 21:11:59.147  INFO 36300 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5ed5b321
+2019-12-28 21:12:03.193  INFO 36300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:12:06.619  WARN 36300 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 21:12:07.520 DEBUG 36300 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 21:12:09.848  INFO 36300 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 21:12:13.329 DEBUG 36300 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 21:12:16.185  INFO 36300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:12:16.450 DEBUG 36300 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 21:12:17.320 DEBUG 36300 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 21:12:17.514 DEBUG 36300 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 21:12:20.090  INFO 36300 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 21:12:20.446  INFO 36300 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 21:12:20.634  INFO 36300 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 21:12:21.959  INFO 36300 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 21:12:21.981  INFO 36300 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 21:12:22.078  INFO 36300 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 21:12:22.207  INFO 36300 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Started OrderResourceTest in 40.255 seconds (JVM running for 45.398)
+2019-12-28 21:12:22.604 DEBUG 36300 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@18271936, started on Sat Dec 28 21:11:45 BRST 2019
+2019-12-28 21:12:22.612  INFO 36300 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:12:22.622  INFO 36300 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:12:22.638  INFO 36300 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 21:12:22.664  INFO 36300 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 21:13:10.946  INFO 36232 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Starting OrderResourceTest on DESKTOP-70POKHP with PID 36232 (started by junior in C:\invillia_principal)
+2019-12-28 21:13:10.949  INFO 36232 --- [main] c.i.acme.resourceTest.OrderResourceTest  : No active profile set, falling back to default profiles: default
+2019-12-28 21:13:12.154 DEBUG 36232 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@72cc7e6f
+2019-12-28 21:13:18.184  INFO 36232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 21:13:18.340  INFO 36232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 0 repository interfaces.
+2019-12-28 21:13:20.994  INFO 36232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef416a6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 21:13:23.467  INFO 36232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 21:13:24.340  INFO 36232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 21:13:24.978  INFO 36232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 21:13:25.629  INFO 36232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 21:13:25.670  INFO 36232 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 21:13:27.885  INFO 36232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 21:13:29.984  INFO 36232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 21:13:30.591  INFO 36232 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 21:13:30.617  INFO 36232 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@611e5819
+2019-12-28 21:13:34.928  INFO 36232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:13:39.114  WARN 36232 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 21:13:40.038 DEBUG 36232 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 21:13:42.062  INFO 36232 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 21:13:45.367 DEBUG 36232 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 21:13:48.046  INFO 36232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:13:48.319 DEBUG 36232 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 21:13:48.909 DEBUG 36232 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 21:13:49.042 DEBUG 36232 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 21:13:52.907  INFO 36232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 21:13:53.517  INFO 36232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 21:13:54.192  INFO 36232 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 21:13:56.163  INFO 36232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 21:13:56.177  INFO 36232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 21:13:56.213  INFO 36232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 21:13:56.318  INFO 36232 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Started OrderResourceTest in 47.442 seconds (JVM running for 52.741)
+2019-12-28 21:13:56.697 DEBUG 36232 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@72cc7e6f, started on Sat Dec 28 21:13:12 BRST 2019
+2019-12-28 21:13:56.705  INFO 36232 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:13:56.714  INFO 36232 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:13:56.732  INFO 36232 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 21:13:56.757  INFO 36232 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 21:17:31.135  INFO 48036 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Starting OrderResourceTest on DESKTOP-70POKHP with PID 48036 (started by junior in C:\invillia_principal)
+2019-12-28 21:17:31.139  INFO 48036 --- [main] c.i.acme.resourceTest.OrderResourceTest  : No active profile set, falling back to default profiles: default
+2019-12-28 21:17:32.528 DEBUG 48036 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b013c76
+2019-12-28 21:17:38.453  INFO 48036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 21:17:38.584  INFO 48036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 0 repository interfaces.
+2019-12-28 21:17:41.105  INFO 48036 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c2311cd7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 21:17:42.763  INFO 48036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 21:17:43.207  INFO 48036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 21:17:43.616  INFO 48036 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 21:17:44.126  INFO 48036 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 21:17:44.137  INFO 48036 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 21:17:45.115  INFO 48036 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 21:17:46.107  INFO 48036 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 21:17:46.778  INFO 48036 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 21:17:46.804  INFO 48036 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2de6f1bc
+2019-12-28 21:17:50.917  INFO 48036 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:17:54.831  WARN 48036 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 21:17:55.901 DEBUG 48036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 21:17:58.279  INFO 48036 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 21:18:03.114 DEBUG 48036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 21:18:07.778  INFO 48036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:18:07.986 DEBUG 48036 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 21:18:08.479 DEBUG 48036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 21:18:08.710 DEBUG 48036 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 21:18:11.413  INFO 48036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 21:18:11.725  INFO 48036 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 21:18:12.139  INFO 48036 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 21:18:14.095  INFO 48036 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 21:18:14.110  INFO 48036 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 21:18:14.196  INFO 48036 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 21:18:14.309  INFO 48036 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Started OrderResourceTest in 45.051 seconds (JVM running for 53.191)
+2019-12-28 21:18:23.574  INFO 36016 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 21:18:23.576  INFO 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-28 21:18:23.576 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-12-28 21:18:23.588 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-12-28 21:18:23.588  INFO 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-12-28 21:18:23.589 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/orders", parameters={}
+2019-12-28 21:18:23.591 DEBUG 36016 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.lang.Void> com.invillia.acme.resource.OrderController.Create(com.invillia.acme.domain.inputs.CreateOrder)
+2019-12-28 21:18:23.603 DEBUG 36016 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [CreateOrder(address=345 NE 2nd Ave, Miami, FL 33132, Estados Unidos, storeId=null, items=null)]
+2019-12-28 21:18:23.794  WARN 36016 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> com.invillia.acme.resource.OrderController.Create(com.invillia.acme.domain.inputs.CreateOrder) with 2 errors: [Field error in object 'createOrder' on field 'storeId': rejected value [null]; codes [NotNull.createOrder.storeId,NotNull.storeId,NotNull.java.util.UUID,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.storeId,storeId]; arguments []; default message [storeId]]; default message [não pode ser nulo]] [Field error in object 'createOrder' on field 'items': rejected value [null]; codes [NotNull.createOrder.items,NotNull.items,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.items,items]; arguments []; default message [items]]; default message [não pode ser nulo]] ]
+2019-12-28 21:18:23.795 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2019-12-28 21:18:23.799 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2019-12-28 21:18:23.800 DEBUG 36016 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-28 21:18:23.807 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:18:23.808 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Dec 28 21:18:23 BRST 2019, status=400, error=Bad Request, errors=[Field error in object 'createOrder' on field 'storeId': rejected value [null]; codes [NotNull.createOrder.storeId,NotNull.storeId,NotNull.java.util.UUID,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.storeId,storeId]; arguments []; default message [storeId]]; default message [não pode ser nulo], Field error in object 'createOrder' on field 'items': rejected value [null]; codes [NotNull.createOrder.items,NotNull.items,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.items,items]; arguments []; default message [items]]; default message [não pode ser nulo]], message=Validation failed for object='createOrder'. Error count: 2, trace=org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> com.invillia.acme.resource.OrderController.Create(com.invillia.acme.domain.inputs.CreateOrder) with 2 errors: [Field error in object 'createOrder' on field 'storeId': rejected value [null]; codes [NotNull.createOrder.storeId,NotNull.storeId,NotNull.java.util.UUID,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.storeId,storeId]; arguments []; default message [storeId]]; default message [não pode ser nulo]] [Field error in object 'createOrder' on field 'items': rejected value [null]; codes [NotNull.createOrder.items,NotNull.items,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.items,items]; arguments []; default message [items]]; default message [não pode ser nulo]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:138)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+, path=/orders}]
+2019-12-28 21:18:23.896 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2019-12-28 21:18:25.313 DEBUG 48036 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4b013c76, started on Sat Dec 28 21:17:32 BRST 2019
+2019-12-28 21:18:25.330  INFO 48036 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:18:25.339  INFO 48036 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:18:25.353  INFO 48036 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 21:18:25.386  INFO 48036 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 21:20:04.466  INFO 46248 --- [restartedMain] com.invillia.acme.InvilliaApplication    : Starting InvilliaApplication on DESKTOP-70POKHP with PID 46248 (C:\invillia_principal\target\classes started by junior in C:\invillia_principal)
+2019-12-28 21:20:04.484  INFO 46248 --- [restartedMain] com.invillia.acme.InvilliaApplication    : No active profile set, falling back to default profiles: default
+2019-12-28 21:20:04.679  INFO 46248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-28 21:20:04.680  INFO 46248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-28 21:20:08.567  INFO 46248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 21:20:08.662  INFO 46248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 0 repository interfaces.
+2019-12-28 21:20:09.894  INFO 46248 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$62dc11f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 21:20:11.187  INFO 46248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 21:20:11.262  INFO 46248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 21:20:11.263  INFO 46248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-12-28 21:20:11.281  INFO 46248 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\junior\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\4.2\bin;;C:\Users\junior\Downloads\spring-tool-suite-4-4.4.0.RELEASE-e4.13.0-win32.win32.x86_64\sts-4.4.0.RELEASE;;.]
+2019-12-28 21:20:11.841  INFO 46248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 21:20:11.842 DEBUG 46248 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-12-28 21:20:11.843  INFO 46248 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7163 ms
+2019-12-28 21:20:11.967  INFO 46248 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-12-28 21:20:11.978  INFO 46248 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-28 21:20:11.986  INFO 46248 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-28 21:20:11.988  INFO 46248 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-12-28 21:20:11.989  INFO 46248 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-28 21:20:12.416  INFO 46248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 21:20:12.970  INFO 46248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 21:20:13.194  INFO 46248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 21:20:13.768  INFO 46248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 21:20:13.775  INFO 46248 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 21:20:14.456  INFO 46248 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 21:20:15.104  INFO 46248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 21:20:15.554  INFO 46248 --- [restartedMain] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 21:20:15.569  INFO 46248 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@70b5dbc0
+2019-12-28 21:20:18.118  INFO 46248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:20:18.275  WARN 46248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-12-28 21:20:19.241  WARN 46248 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 21:20:19.424 DEBUG 46248 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 21:20:19.671  INFO 46248 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 21:20:19.852 DEBUG 46248 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 21:20:20.172  INFO 46248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:20:20.235 DEBUG 46248 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 21:20:20.354 DEBUG 46248 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 21:20:20.393 DEBUG 46248 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 21:20:20.916  INFO 46248 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 21:20:20.976  INFO 46248 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 21:20:21.123  INFO 46248 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 21:20:21.585  INFO 46248 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 21:20:21.599  INFO 46248 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 21:20:21.628  INFO 46248 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 21:20:21.771 ERROR 46248 --- [restartedMain] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) [spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.invillia.acme.InvilliaApplication.main(InvilliaApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_211]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_211]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_211]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_211]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_211]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	... 19 common frames omitted
+
+2019-12-28 21:20:21.827  INFO 46248 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-28 21:20:21.899  INFO 46248 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-28 21:20:21.914 ERROR 46248 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-12-28 21:20:21.940  INFO 46248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:20:21.945  INFO 46248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:20:21.955  INFO 46248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 21:20:21.981  INFO 46248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 21:20:59.301  INFO 25248 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Starting OrderResourceTest on DESKTOP-70POKHP with PID 25248 (started by junior in C:\invillia_principal)
+2019-12-28 21:20:59.304  INFO 25248 --- [main] c.i.acme.resourceTest.OrderResourceTest  : No active profile set, falling back to default profiles: default
+2019-12-28 21:21:00.734 DEBUG 25248 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b013c76
+2019-12-28 21:21:09.200  INFO 25248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 21:21:09.390  INFO 25248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127ms. Found 0 repository interfaces.
+2019-12-28 21:21:11.687  INFO 25248 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a03595f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 21:21:13.597  INFO 25248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 21:21:14.029  INFO 25248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 21:21:14.441  INFO 25248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 21:21:14.939  INFO 25248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-12-28 21:21:14.956  INFO 25248 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 21:21:15.984  INFO 25248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 21:21:16.859  INFO 25248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-12-28 21:21:17.437  INFO 25248 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-12-28 21:21:17.466  INFO 25248 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@285005b8
+2019-12-28 21:21:21.460  INFO 25248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:21:25.606  WARN 25248 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 21:21:26.899 DEBUG 25248 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2019-12-28 21:21:29.334  INFO 25248 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 21:21:34.887 DEBUG 25248 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-12-28 21:21:37.670 DEBUG 36016 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "//swagger-ui.html", parameters={}
+2019-12-28 21:21:37.682 DEBUG 36016 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-12-28 21:21:37.695 DEBUG 36016 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:38.415 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2019-12-28 21:21:38.420 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:38.425 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:38.425 DEBUG 36016 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2019-12-28 21:21:38.427 DEBUG 36016 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:38.432 DEBUG 36016 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:38.451 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2019-12-28 21:21:38.453 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:38.461 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:38.480 DEBUG 36016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2019-12-28 21:21:38.480 DEBUG 36016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2019-12-28 21:21:38.481 DEBUG 36016 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:38.485 DEBUG 36016 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:38.486 DEBUG 36016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:38.490 DEBUG 36016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:39.736  INFO 25248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:21:40.433 DEBUG 25248 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-12-28 21:21:41.758 DEBUG 25248 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-12-28 21:21:42.094 DEBUG 25248 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-12-28 21:21:43.122 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "//swagger-resources/configuration/ui", parameters={}
+2019-12-28 21:21:43.124 DEBUG 36016 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-12-28 21:21:43.126 DEBUG 36016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+2019-12-28 21:21:43.130 DEBUG 36016 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:43.146 DEBUG 36016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-12-28 21:21:43.228 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:21:43.230 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.swagger.web.UiConfiguration@2748a0cf]
+2019-12-28 21:21:43.234 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-12-28 21:21:43.513 DEBUG 36016 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "//swagger-resources/configuration/security", parameters={}
+2019-12-28 21:21:43.514 DEBUG 36016 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-12-28 21:21:43.526 DEBUG 36016 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:21:43.526 DEBUG 36016 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.swagger.web.SecurityConfiguration@2b32236f]
+2019-12-28 21:21:43.529 DEBUG 36016 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-12-28 21:21:43.775 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "//swagger-resources", parameters={}
+2019-12-28 21:21:43.776 DEBUG 36016 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-12-28 21:21:43.778 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:21:43.778 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[springfox.documentation.swagger.web.SwaggerResource@4229af6c]]
+2019-12-28 21:21:43.782 DEBUG 36016 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-12-28 21:21:44.525 DEBUG 36016 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "//v2/api-docs", parameters={}
+2019-12-28 21:21:44.527 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "//", parameters={}
+2019-12-28 21:21:44.529 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-12-28 21:21:44.529 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-12-28 21:21:44.530 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-12-28 21:21:44.535 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-12-28 21:21:44.536 DEBUG 36016 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-28 21:21:44.537 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:21:44.537 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Dec 28 21:21:44 BRST 2019, status=404, error=Not Found, message=No message available, path=//}]
+2019-12-28 21:21:44.542 DEBUG 36016 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-12-28 21:21:45.217 DEBUG 36016 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2019-12-28 21:21:45.218 DEBUG 36016 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:45.221 DEBUG 36016 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:45.304 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "//csrf", parameters={}
+2019-12-28 21:21:45.305 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-12-28 21:21:45.312 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-12-28 21:21:45.314 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-12-28 21:21:45.315 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-12-28 21:21:45.316 DEBUG 36016 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-28 21:21:45.317 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:21:45.318 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Dec 28 21:21:45 BRST 2019, status=404, error=Not Found, message=No message available, path=//csrf}]
+2019-12-28 21:21:45.319 DEBUG 36016 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-12-28 21:21:45.593 DEBUG 36016 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:21:45.594 DEBUG 36016 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.spring.web.json.Json@bf4bd79]
+2019-12-28 21:21:45.596 DEBUG 36016 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-12-28 21:21:46.815 DEBUG 36016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2019-12-28 21:21:46.816 DEBUG 36016 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:46.817 DEBUG 36016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2019-12-28 21:21:46.817 DEBUG 36016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "//webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2019-12-28 21:21:46.818 DEBUG 36016 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:46.818 DEBUG 36016 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-12-28 21:21:46.821 DEBUG 36016 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:46.822 DEBUG 36016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:46.824 DEBUG 36016 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-12-28 21:21:46.846  INFO 25248 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-28 21:21:47.303  INFO 25248 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-28 21:21:47.453  INFO 25248 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-28 21:21:49.157  INFO 25248 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_1
+2019-12-28 21:21:49.172  INFO 25248 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: CreateUsingPOST_2
+2019-12-28 21:21:49.260  INFO 25248 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: ListUsingGET_1
+2019-12-28 21:21:49.376  INFO 25248 --- [main] c.i.acme.resourceTest.OrderResourceTest  : Started OrderResourceTest in 51.83 seconds (JVM running for 57.607)
+2019-12-28 21:21:59.615 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/orders", parameters={}
+2019-12-28 21:21:59.616 DEBUG 36016 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.lang.Void> com.invillia.acme.resource.OrderController.Create(com.invillia.acme.domain.inputs.CreateOrder)
+2019-12-28 21:21:59.617 DEBUG 36016 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [CreateOrder(address=345 NE 2nd Ave, Miami, FL 33132, Estados Unidos, storeId=null, items=null)]
+2019-12-28 21:21:59.618  WARN 36016 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> com.invillia.acme.resource.OrderController.Create(com.invillia.acme.domain.inputs.CreateOrder) with 2 errors: [Field error in object 'createOrder' on field 'storeId': rejected value [null]; codes [NotNull.createOrder.storeId,NotNull.storeId,NotNull.java.util.UUID,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.storeId,storeId]; arguments []; default message [storeId]]; default message [não pode ser nulo]] [Field error in object 'createOrder' on field 'items': rejected value [null]; codes [NotNull.createOrder.items,NotNull.items,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.items,items]; arguments []; default message [items]]; default message [não pode ser nulo]] ]
+2019-12-28 21:21:59.619 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2019-12-28 21:21:59.620 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2019-12-28 21:21:59.621 DEBUG 36016 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-28 21:21:59.623 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-12-28 21:21:59.623 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Dec 28 21:21:59 BRST 2019, status=400, error=Bad Request, errors=[Field error in object 'createOrder' on field 'storeId': rejected value [null]; codes [NotNull.createOrder.storeId,NotNull.storeId,NotNull.java.util.UUID,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.storeId,storeId]; arguments []; default message [storeId]]; default message [não pode ser nulo], Field error in object 'createOrder' on field 'items': rejected value [null]; codes [NotNull.createOrder.items,NotNull.items,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.items,items]; arguments []; default message [items]]; default message [não pode ser nulo]], message=Validation failed for object='createOrder'. Error count: 2, trace=org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> com.invillia.acme.resource.OrderController.Create(com.invillia.acme.domain.inputs.CreateOrder) with 2 errors: [Field error in object 'createOrder' on field 'storeId': rejected value [null]; codes [NotNull.createOrder.storeId,NotNull.storeId,NotNull.java.util.UUID,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.storeId,storeId]; arguments []; default message [storeId]]; default message [não pode ser nulo]] [Field error in object 'createOrder' on field 'items': rejected value [null]; codes [NotNull.createOrder.items,NotNull.items,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createOrder.items,items]; arguments []; default message [items]]; default message [não pode ser nulo]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:138)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+, path=/orders}]
+2019-12-28 21:21:59.628 DEBUG 36016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2019-12-28 21:22:01.051 DEBUG 25248 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4b013c76, started on Sat Dec 28 21:21:00 BRST 2019
+2019-12-28 21:22:01.061  INFO 25248 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 21:22:01.072  INFO 25248 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 21:22:01.083  INFO 25248 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 21:22:01.109  INFO 25248 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
