@@ -8,7 +8,7 @@ import java.util.UUID;
 
 @Entity
 @Data
-
+@Table(name = "orders_item")
 public class OrderItem {
 
     @Id

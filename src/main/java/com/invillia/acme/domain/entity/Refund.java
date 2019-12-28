@@ -7,7 +7,7 @@ import java.util.UUID;
 
 @Entity
 @Data
-
+@Table(name = "refund")
 public class Refund {
 
     @Id

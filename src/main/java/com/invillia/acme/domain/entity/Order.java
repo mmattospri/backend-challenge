@@ -9,6 +9,7 @@ import java.util.UUID;
 
 @Entity
 @Data
+@Table(name = "\"order\"")
 public class Order {
 
     public Order(UUID id2, UUID id3, String address, String status) {

@@ -3,11 +3,9 @@ package com.invillia.acme.services;
 import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.UUID;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import com.invillia.acme.domain.entity.Order;
 import com.invillia.acme.domain.entity.Payment;
 import com.invillia.acme.domain.entity.Refund;
@@ -17,6 +15,7 @@ import com.invillia.acme.exceptions.NotFoundException;
 import com.invillia.acme.exceptions.OrderCanceledException;
 import com.invillia.acme.exceptions.PaymentPendingException;
 import com.invillia.acme.exceptions.PaymentRequiredException;
+import com.invillia.acme.exceptions.RefundExpiredException;
 import com.invillia.acme.domain.inputs.CreateOrderRefund;
 import com.invillia.acme.domain.inputs.CreatePayment;
 import com.invillia.acme.repositories.OrderItemRepository;
@@ -26,6 +25,7 @@ import com.invillia.acme.repositories.RefundRepository;
 
 @Service
 public class PaymentService {
+	private final int EXPIRED = 10;
 
 	@Autowired
 	OrderRepository orderRepository;
@@ -54,7 +54,7 @@ public class PaymentService {
 	@Transactional
 	public UUID refund(CreateOrderRefund command) {
 		Order order = orderRepository.find(command.getOrderId()).orElseThrow(() ->new NotFoundException(command.getOrderId().toString()));
-		testOrderToRefund(order);
+		testRefundOrder(order);
 		Payment payment = Optional.ofNullable(order.getPayment()).orElseThrow(PaymentRequiredException::new);
 		testPaymentToRefund(payment);
 		Refund refund = new Refund();
@@ -78,13 +78,16 @@ public class PaymentService {
 		orderRepository.update(order);
 	}
 
-	private void testOrderToRefund(Order order) {
+	private void testRefundOrder(Order order) {
+			
 		if (order.getStatus().equals(StatusOrder.PAYMENT_PENDING.getName()))
 			throw new PaymentRequiredException();
 		if (order.getStatus().equals(StatusOrder.PAYMENT_ACCEPT.getName()))
 			throw new PaymentPendingException();
 		if (order.getStatus().equals(StatusOrder.CANCELLED.getName()))
 			throw new OrderCanceledException();
+		 if (order.getConfirmationDate().plusDays(EXPIRED).isBefore(LocalDateTime.now()))
+	            throw new RefundExpiredException(EXPIRED);
 
 	}
 
